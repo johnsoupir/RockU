@@ -13,7 +13,7 @@ pipx install git+https://github.com/iamtalhaasghar/yewtube.git
 pipx inject yewtube youtube-dl
 echo "Done."
 echo "Installing Flask"
-pip3 install flask
+pip3 install flask flask_wtf
 echo "Done."
 echo "Remember to set API key in yewtube"
 
