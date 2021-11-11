@@ -34,7 +34,8 @@ else
 	echo "You added a song!!!"
 
 echo "Playing $(cat list.txt | tail -1)"
-echo "Playing $(cat list.txt | tail -1)" >> log.txt
+echo "Playing $(cat list.txt | tail -1)"
+cat list.txt | tail -1 >> log.txt
 #yt /\' $(tail -1 list.txt) \',1,q
 cat list.txt | sed -e  '$d' > blah.txt
 cat blah.txt > list.txt
