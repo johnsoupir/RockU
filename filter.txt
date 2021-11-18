@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 shit
 Shit
 SHIT
@@ -17,3 +18,22 @@ bieber
 Beiber
 BEIBER
 beiber
+=======
+lil
+LIL
+Lil
+Justin Beiber
+justin beiber
+fuck
+Fuck
+FUCK
+shit
+Shit
+SHIT
+sh*t
+Sh*t
+SH*T
+Slipknot
+Venom
+Jingle Bells
+>>>>>>> 04d0082659836e066315f6482d2accdee7db7ebf

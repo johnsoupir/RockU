@@ -34,9 +34,17 @@ else
 #If there is something in list.txt, search and play that instead
 	echo "You added a song!!!"
 
+<<<<<<< HEAD
 echo "Playing $(cat list.txt | head -1)"
 NEXTSONG=$(cat list.txt | head -1)
 cat list.txt | sed -e  '1d' > blah.txt
+=======
+echo "Playing $(cat list.txt | tail -1)"
+echo "Playing $(cat list.txt | tail -1)"
+cat list.txt | tail -1 >> log.txt
+#yt /\' $(tail -1 list.txt) \',1,q
+cat list.txt | sed -e  '$d' > blah.txt
+>>>>>>> 04d0082659836e066315f6482d2accdee7db7ebf
 cat blah.txt > list.txt
 #clear the last result from list.txt and update the que.
 
